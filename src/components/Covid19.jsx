@@ -79,7 +79,7 @@ const Covid = ()=>{
                                 <input id="inputValue" type="password" name="password" placeholder="Enter password" onChange={changeFun} value={nfill.password}  autoComplete="off" required /><br />
                                 <button type="submit" onClick={onSubmits} className="buto">submit</button>
                             </form>
-                            <a href="/am">goto go</a>
+                            
                       </div>
 
                   </div>
