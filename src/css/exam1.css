@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+.exam1_inside{
+    padding-top: 10px;
+    background-color:white;
+    box-shadow: 0px 1px 2px black;
+
+}
+
+.exam1_main{
+    margin-top: 30px;
+    display: grid;
+    place-items: center;
+}
+
+.inputSubmitArea{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.inputFill{
+    
+   width: 250px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    font-weight: bolder;
+    color: steelblue;
+  
+
+}
+
+.submitButton{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    outline: none;
+    border:2px solid darksalmon;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px black;
+}
+
+::placeholder{
+    font-family: 'Mate SC', serif;
+    color: steelblue;
+    font-weight: bold;
+}
+
+.headExam{
+    
+    border-bottom: 2px dotted dimgray;
+}
+
+#headLuck{
+    text-align: center;
+    color: steelblue;
+    font-family: 'Mate SC', serif;  
+    font-weight: bolder;    
+}

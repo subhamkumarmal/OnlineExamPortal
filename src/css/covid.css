@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+body{
+    background-color: powderblue;
+}
+
+.inside_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main_div{
+   margin-top: 100px;
+
+}
+
+#exam{
+    width: 300px;
+    height: 250px;
+}
+
+::placeholder{
+    color: steelblue;
+    font-weight: bold;
+}
+
+#inputValue{
+    width:250px;
+    margin-top: 5px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(169, 88, 231);
+    /* font-family: 'Mate SC', serif; */
+    font-weight: bold;
+    color: steelblue;
+    
+}
+
+
+
+.same{
+    display: grid;
+    place-items: center;
+}
+
+#h5{
+    text-align: center;
+    font-family: 'Mate SC', serif;
+    color: steelblue;
+    font-weight: bold;
+}
+
+.buto{
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    border:1px solid  steelblue;;
+    outline: none;
+    background-color: rgb(137, 228, 176);
+    color: black;
+    font-family: 'Mate SC', serif;
+    font-weight: bold;
+    cursor: pointer;
+    
+
+}
